@@ -81,11 +81,12 @@
                 android:src="@drawable/new1" />
 
             <TextView
+                android:id="@+id/recent_party"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
                 android:text="밥 같이 먹을사람"
-                android:textStyle="bold"
-                android:paddingHorizontal="10dp">
+                android:textStyle="bold">
 
             </TextView>
 
