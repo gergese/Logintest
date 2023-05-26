@@ -33,6 +33,7 @@ class Mypage : ComponentActivity() {
         noticeBtn.setOnClickListener {
             intent = Intent(this, Notice :: class.java)
             startActivity(intent)
+            finish()
         }
     }
 }

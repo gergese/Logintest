@@ -24,18 +24,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_weight="1"
+            android:layout_marginStart="50dp"
             android:backgroundTint="@color/white"
             android:src="@drawable/login" />
-
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="@color/white"
-            android:src="@drawable/search" />
 
     </LinearLayout>
 
@@ -129,61 +120,28 @@
 
     </LinearLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_marginTop="75dp"
-        android:layout_gravity="center"
-        android:background="#6C6868">
-
-    </View>
-
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="20dp">
 
-        <ImageButton
-            android:id="@+id/partyBtn"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/white"
-            android:src="@drawable/party_matching"
-            android:layout_marginRight="10dp">
-        </ImageButton>
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/party_matching"
+            android:drawablePadding="10dp"
+            android:text="파티 매칭" />
 
-        <ImageButton
-            android:id="@+id/matchingBtn"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:backgroundTint="@color/white"
-            android:src="@drawable/matching"
-            android:layout_weight="1"
-            android:layout_marginRight="10dp">
-        </ImageButton>
+        <Button
+            android:id="@+id/btn_auto"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/matching"
+            android:drawablePadding="10dp"
+            android:text="실시간 매칭" />
 
-        <ImageButton
-            android:id="@+id/starBtn"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:backgroundTint="@color/white"
-            android:src="@drawable/star"
-            android:layout_weight="1"
-            android:layout_marginRight="10dp">
-        </ImageButton>
-
-        <ImageButton
-            android:id="@+id/categoryBtn"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/category"
-            android:backgroundTint="@color/white"
-            android:layout_weight="1"
-            android:layout_marginRight="10dp">
-        </ImageButton>
 
     </LinearLayout>
 
